@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Workbook</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+                font-size: 12px;
+                line-height: 1rem;
+            }
+            header {
+                background-color: blue;
+                color: rgba(255, 255, 255, 1);
+                height: 15%;
+            }
+            .wrapper {
+                width: 100%;
+                padding: 2.5rem;
+                display: flex;
+                flex-direction: row;
+                background-color: aliceblue;
+            }
+            h1 {
+                font-family:'Franklin Gothic Medium';
+                line-height: 3rem;
+                text-align: center;
+            }
+            #menu-col {
+                margin: 25px;
+                padding: 15px;
+                width: 50%;
+                background-color: red;
+            }
+            #content {
+                padding: 15px;
+                width: 49%;
+                background-color: yellowgreen;
+            }
+            img {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+       <header>
+        <h1>Bek's book of learning</h1>
+        </header>
+        <div class="wrapper">
+            <div id="menu-col">
+                <a href="./week1/index.html"><button>Week 1</button></a>
+            </div>
+            <div id="content">
+                <h2>Week 1 content</h2>
+                <p>Atomic Austria GmbH is an Austrian sports equipment company headquartered in Salzburg, Austria. It manufactures and sells skis and other skiing equipment, such as boots, bindings, helmets, ski poles, goggles, bags, apparel and protective equipment.[2] Atomic is a subsidiary of Finnish retail conglomerate Amer Sports, which in turn, oversees Arc'teryx, Precor, Salomon, Suunto, Sports Tracker, and Wilson.</p>
+                <img src="./img/000028.jpg" style="border: 5px solid red;"/>
+            </div>
+        </div>
+    </body>
+</html>
